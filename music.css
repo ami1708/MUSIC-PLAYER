@@ -1,0 +1,555 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: all;
+
+
+
+}
+/*SET BACKGROUND COLOR TO BLACK*/
+
+body{
+
+	background-color: black;
+}
+
+
+h3{
+
+
+  color: white;
+  text-align: center;
+ }
+
+/*FOR THE ANIMATION*/
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(50px, 0);
+  }
+  
+  80% {
+    transform: translate(-50px, 0);
+  }
+
+
+  /*STYLES TO NAV SECTION*/
+}
+nav{
+
+	background-color: #2e2d2c;
+  position: absolute;
+  top:0;
+	width: 100%;
+	height: 80px;
+	float: right;
+
+
+
+}
+
+/*HEADE SECTION*/
+header{
+
+  margin-top: none;
+}
+#logo-caption{
+	padding-left: 2px;
+	color: white;
+	height: 20px;
+
+}
+#logoimg{
+	 color: orange;
+	 margin-top:20px;
+	 font-size: 30px;
+	 margin-left: 50px;
+	 font-weight: bold;
+}
+
+#hori-list{
+  list-style: none;
+	float: right;
+	
+}
+ #hori-list li {
+ 	float: left;
+ 	margin-top: 2px;
+	text-decoration: none;
+
+}
+#hori-list li a{
+	color: white;
+	display:inline-block;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align:center;
+	padding:20px;
+	text-decoration:none;
+	border-radius: 10px;
+
+
+
+}
+#hori-list li a:hover{
+
+	color: grey;
+	
+}
+
+
+#language{
+	color: red;
+	font-size: 2rem;
+	margin-top: 3px;
+}
+
+
+
+#search{
+
+	height: 40px;
+	font-weight: bold;
+	outline: none;
+	text-align: center;
+	width: 300px;
+	background-image: 
+}
+/*Search Button*/
+
+button{
+	display: inline-block;
+/*	font-size: 1rem;*/
+	font-weight: bold;
+	height: 42px;
+	margin-top: 22px;
+	position: absolute;
+	right: 190px;
+	
+}
+
+ span{
+	color: orange;
+	margin-top: 100px;
+	text-align: center;
+
+}
+
+section{
+
+	margin-top: 40px;
+}
+
+h2{
+
+
+color: orange;
+margin-top: 50px;
+margin-left: 40px;
+}
+
+/*UPPER MAIN CONTAINER*/
+
+#upper-main-container{
+
+	box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+.upper-main-image-container{
+    max-width: 600px;
+    overflow: hidden;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+}
+.upper-main-image-container img{
+
+
+	width: 100%;
+    height: 100%;
+}
+
+
+.image-details {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    height: 100%;
+    width: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+}
+
+.upper-main-image-container :hover {
+
+    box-shadow: 10px 10px 10px 10px grey;
+    
+
+}
+
+.upper-main-image-container:hover .image-details {
+    background-color: #80808078;
+    background-size: 100% 100%;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+
+
+}
+
+#trending-posters{
+	animation: nudge 5s linear infinite alternate;
+
+}
+
+
+#lower-main-containerH{
+
+	box-sizing: border-box;
+  display: flex;
+   justify-content: space-around;
+}
+.lower-main-image-containerH{
+    max-width: 600px;
+    overflow: hidden;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+}
+.lower-main-image-containerH img{
+
+
+	width: 100%;
+   height: 100%;
+}
+
+
+.image-details {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    height: 100%;
+    width: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+}
+
+.lower-main-image-containerH :hover {
+
+    box-shadow: 10px 10px 10px 10px grey;
+    
+
+}
+
+.lower-main-image-containerH :hover.image-details {
+    background-color: #80808078;
+    background-size: 100% 100%;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+
+
+}
+
+/*latest english songs*/
+
+#lower-main-containerE{
+
+  box-sizing: border-box;
+  display: flex;
+   justify-content: space-around;
+}
+.lower-main-image-container0{
+    max-width: 600px;
+    overflow: hidden;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+}
+.lower-main-image-container0 img{
+
+
+  width: 100%;
+   height: 100%;
+}
+
+
+.image-details {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    height: 100%;
+    width: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+}
+
+.lower-main-image-container0 :hover {
+
+    box-shadow: 10px 10px 10px 10px grey;
+    
+
+}
+
+.lower-main-image-container0 :hover.image-details {
+    background-color: #80808078;
+    background-size: 100% 100%;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+
+
+}
+
+/*POPULAR ARTISTS*/
+
+
+#lower-main-containerA{
+
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.lower-main-image-container1{
+    max-width: 600px;
+    overflow: hidden;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+}
+.lower-main-image-container1 img{
+
+
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+#image{
+
+  height: 180px;
+  width: 180px;
+}
+
+.image-details {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 100%;
+    width: 100%;
+    color: transparent;
+    text-align: center;
+   
+}
+#link{
+  transition: all 0.5s ease-in-out;
+  text-decoration:none;
+  font-family: sans-serif;
+   position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 100%;
+    width: 100%;
+    color: transparent;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.lower-main-image-container1:hover .image-details{
+    background-color: #80808078;
+    color: white;
+    border-radius: 100%;
+}
+
+
+
+
+ 
+/* HIT FACTORY ARIJIT SINGH*/
+
+#lower-main-containerF{
+
+  box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+
+
+    }
+
+
+.lower-main-image-container2{
+    max-width: 600px;
+    overflow: hidden;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+}
+.lower-main-image-container2 img{
+
+
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+#lower-main-containerF{
+  animation: nudge 5s linear infinite alternate;
+
+}
+
+#image{
+
+  height: 180px;
+  width: 180px;
+}
+
+.image-details {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 100%;
+    width: 100%;
+    color: transparent;
+    text-align: center;
+   
+}
+
+.lower-main-image-container2:hover .image-details{
+    background-color: #80808078;
+    color: white;
+    border-radius: 100%;
+}
+
+
+ .lower-main-image-container2 img{
+
+
+  width: 180px;
+  height: 180px;
+  border-radius: 20%;
+}
+
+/*MOODS*/
+
+#lower-main-containerM{
+
+  box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.lower-main-image-container3{
+    max-width: 600px;
+    overflow: hidden;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.lower-main-image-container3 img{
+
+
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+#lower-main-containerM{
+  animation: nudge 5s linear infinite alternate;
+
+}
+#image{
+
+  height: 180px;
+  width: 180px;
+}
+
+.image-details {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 100%;
+    width: 100%;
+
+    color: transparent;
+    text-align: center;
+   
+}
+
+
+
+.lower-main-image-container3:hover .image-details{
+    background-color: #80808078;
+    color: white;
+    border-radius: 100%;
+}
+
+/*MAIN SECTION*/
+main{
+  width:78%;
+  display: inline-block;
+}
+
+/*ASIDE SECTION*/
+aside{
+  display: inline-block;
+  width:21%;
+  vertical-align: top;
+
+}
+
+/*QUEUE SONGS*/
+#queue-songs{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color:  #2e2d2c;
+
+}
+
+
+.song{
+
+  margin:20px;
+}
+/*Table Created Inside Queue*/
+
+table td{
+  text-align: right;
+}
+
+table th{
+  text-align: left;
+  color: white;
+}
